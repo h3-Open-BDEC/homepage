@@ -1,0 +1,284 @@
+﻿body {
+	background: #cccccc;
+}
+
+.wrapper {
+	display: flex;
+    width: 1060px;
+    margin: 0 auto;
+	background: #e2e2e2;
+}
+
+header {
+	width: 1060px;
+	height: 250px;
+	background: #fff;
+}
+
+header .logo img {
+	margin: 0 auto;
+    display: block;
+}
+
+header h1 {
+	color: #092471;
+	width: 770px;
+	padding: 40px;
+}
+
+h1.sub {
+	color: #092471;;
+}
+
+.drawer-hamburger {
+    left: 0 !important;
+    left: 8px !important;
+}
+
+h2 {
+	background: #092471;
+    padding: 0.5em 0 0.5em 0.5em;
+    margin: 0px 0 8px 0;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.l-body-wrapper {
+	width: 1030px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.s-nav {
+	float: left;
+	width: 200px;
+	margin: 0 30px 0 0;
+}
+
+.s-nav_sub {
+	float: left;
+	width: 200px;
+    margin: 0 30px 0 0;
+}
+
+.content_wrapper {
+	width: 800px;
+	float: right;
+	color: #092471;
+	line-height: 1.6;
+	margin: 0 0 80px 0;
+}
+
+.content_wrapper_inner {
+	padding: 48px 16px 0 16px;
+	margin-top: -48px;
+}
+
+.content_wrapper h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 6px 0 8px 0;
+}
+
+.content_wrapper p {
+	margin: 0 0 16px 0;
+}
+
+.content_table {
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.content_table_content {
+	margin: 0 0 8px 0;
+}
+
+.content_table > tbody > tr > td.heading{
+	width: 100%;
+	background: #092471;
+    color: #fff;
+    padding: 0.5em;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.content_table > tbody > tr > td{
+	width: 100%;
+	background: #ffffff;
+    padding: 0.5em;
+	text-align: center;
+}
+
+.content_table > tbody > tr > td span{
+	padding: 8px;
+	width: 98%;
+	display: inline-block;
+	border-bottom: #092471 dashed 1px;
+}
+
+.content_table > tbody > tr > td.bottom{
+	border-radius: 0px 0px 5px 5px;
+	margin: 0 0 8px 0;
+}
+
+footer {
+	text-align: center;
+    width: 1060px;
+	height: 80px;
+    margin: 0px auto 0;
+    background: #0060FD;
+    padding: 15px 0px 10px 0px;
+    color: #fff;
+    clear: both;
+}
+
+footer h5 {
+	font-weight: normal;
+	font-size: medium;
+}
+
+@media (min-width: 480px) {
+	.drawer--sidebar .drawer-nav {
+		background: #0060FD;
+		border-right: none !important;
+		padding: 0 !important;
+		position: relative !important;
+		width: 200px !important;
+		display: block;
+		-webkit-transform: none;
+		transform: none;
+		height: 100%;
+	}
+	.drawer-nav a {
+		color: #fff;
+		padding: 20px;
+	}
+
+}
+
+.drawer {
+	width: 100% !important;
+	overflow-x: hidden;
+}
+
+.page-top {
+	position: relative;
+	width: 106.5%;
+    height: 56px;
+    display: list-item;
+    background-color: #fff;
+}
+
+.drawer-menu-item:hover {
+	text-decoration: none !important;
+    color: #092471 !important;
+    background: #bee6ff !important;
+}
+
+.current {
+	text-decoration: none !important;
+    color: #fff !important;
+    background: #092471 !important;
+}
+
+/* Project */
+.content-img {
+	width: 90%;
+    margin: 0 auto;
+}
+
+.content-img img{
+	width: 100%;
+}
+
+/* Link */
+.link_list li {
+	line-height: 1.8;
+    margin-bottom: 24px;
+	margin-left: 1em;
+	list-style-type: square
+}
+
+header.sub .logo {
+	margin: 0 auto;
+    display: block;
+}
+
+/**********************************************/
+/* 0 - 480px START                            */
+/**********************************************/
+@media (max-width: 480px) {
+
+	header {
+		width: 100%;
+    	height: 104px;
+    	margin-bottom: -34px;
+		height: 162px;
+	}
+
+	header .logo {
+		margin-top: -60px;
+	}
+
+	header .logo img {
+		width: 100%;
+		padding-top: 60px;
+	}
+
+	.wrapper {
+		width: 100%;
+		padding-top: 60px;
+	}
+
+	.page-top {
+		position: relative;
+		width: 100%;
+	}
+
+	header h1 {
+		width: 100%;
+		padding: 40px 0 40px 0;
+		clear: both;
+	}
+	header h1 span {
+		padding: 40px 16px 40px 16px;
+	}
+
+	.drawer-menu {
+		padding-top: 50px !important;
+	}
+
+	.l-body-wrapper {
+		width: 100%;
+	}
+
+	.content_wrapper {
+		width: 100%;
+		margin: 72px 0 80px 0;
+	}
+
+	.content_wrapper_inner {
+		padding: 48px 16px 0 16px;
+	}
+
+	footer {
+		padding: 40px 0 0 0;
+		width: 100%;
+	}
+
+	.s-nav {
+		margin: 0 0 48px 0 !important;
+	}
+
+	.s-nav_sub {
+		margin: 40px 0 0 0 !important;
+	}
+	.content_wrapper {
+		margin: 0 !important;
+	}
+}
+/**********************************************/
+/* 0 - 480px END                              */
+/**********************************************/
